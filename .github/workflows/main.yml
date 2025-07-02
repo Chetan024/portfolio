@@ -24,4 +24,5 @@ jobs:
         aws s3 sync . s3://sonichetan.me \
           --delete \
           --exclude ".git/*" \
-          --exclude "README.md"
+          --exclude "README.md"\
+          --exclude ".github/*"
